@@ -50,7 +50,7 @@ if [[ "${INTERVAL: -1}" == 'm' && "${INTERVAL:0:-1}" -lt 5 ]]; then
   exit 1
 fi
 
-USER_AGENT="seanstaley/docker-google-domains-ddns"
+USER_AGENT="jgstratton/docker-google-domains-ddns"
 
 #-----------------------------------------------------------------------------------------------------------------------
 

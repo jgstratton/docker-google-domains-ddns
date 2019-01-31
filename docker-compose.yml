@@ -1,0 +1,7 @@
+version: '3.7'
+
+services:
+  ddns:
+    build: ./
+    container_name: "ddns"
+    restart: always
