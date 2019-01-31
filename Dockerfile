@@ -1,5 +1,8 @@
 FROM alpine:3.9
 
+RUN apk add --no-cache bash
+RUN apk add --no-cache curl
+
 # Add dynamic dns script
 ADD google-domains-ddns.sh /root/google-domains-ddns/google-domains-ddns.sh
 RUN chmod +x /root/google-domains-ddns/google-domains-ddns.sh
